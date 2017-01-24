@@ -54,6 +54,6 @@ process.stdin.on('data', function (text) {
 });
 
 function done() {
-  console.log('Now that process.stdin is paused, there is nothing more to do.');
+  console.log('all done!');
   process.exit();
 }
